@@ -1,0 +1,17 @@
+docker --version
+
+docker images
+
+docker ps
+
+docker pull openjdk
+
+docker run --name JAVA -it -d openjdk
+
+docker exec -it JAVA jshell
+
+/exit
+
+docker stop 23451234
+
+docker container rm 23451234
