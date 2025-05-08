@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple jQuery Mobile Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+  <!-- Page container -->
+  <div data-role="page" id="simple-page">
+
+    <!-- Navbar at the top -->
+    <div data-role="header">
+      <h1>My Mobile Site</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#" class="ui-btn-active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Content area -->
+    <div data-role="content" style="padding: 20px;">
+      <h2>Welcome!</h2>
+      <p>Fill out the form below:</p>
+
+      <!-- Simple jQuery Mobile form -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="subscribe">Subscribe:</label>
+        <select name="subscribe" id="subscribe" data-role="slider">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <!-- Footer at the bottom -->
+    <div data-role="footer" data-position="fixed">
+      <h4>&copy; 2025 My Mobile Site</h4>
+    </div>
+
+  </div>
+</body>
+</html>
