@@ -42,10 +42,10 @@
 </head>
 <body>
 
-<!-- ✅ Flex container using Bootstrap's d-flex -->
+<!-- Flex container using Bootstrap's d-flex -->
 <div class="d-flex">
     
-    <!-- ✅ Sidebar -->
+    <!--  Sidebar -->
     <div class="sidebar">
         <h4 class="text-center py-3">College Admin</h4>
         <a href="#">Dashboard</a>
@@ -56,14 +56,14 @@
         <a href="#">Results</a>
     </div>
 
-    <!-- ✅ Main Content -->
+    <!--  Main Content -->
     <div class="content p-4 w-100">
     <h2 class="mb-4">Dashboard Overview</h2>
 
-    <!-- ✅ Responsive grid using Bootstrap's row and col -->
+    <!--  Responsive grid using Bootstrap's row and col -->
     <div class="row g-4">
         <div class="col-md-4">
-        <!-- ✅ Card using Bootstrap's card class -->
+        <!--  Card using Bootstrap's card class -->
         <div class="card p-3 text-center">
             <h5>Total Students</h5>
             <h3>2,150</h3>
